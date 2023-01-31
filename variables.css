@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+    --main-color: #872ba3;
+    --main-hover-color: #c735f3;
+    --title-font: 'Itim', sans-serif;
+    --text-font: 'Raleway', sans-serif;
+
+    /* comisiones */
+
+    --tabla-comisiones: #f3d9ff;
+    --texto-tabla-comisiones: #4b0081;
+
+}

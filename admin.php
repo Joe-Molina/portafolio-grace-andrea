@@ -4,11 +4,11 @@
 session_start();
 if($_POST){
 
-    if( ($_POST['usuario']=="joe") && ( $_POST['password']=="12345") ){
+    if( ($_POST['usuario']=="grace") && ( $_POST['password']=="graceuwu") ){
        
-        $_SESSION['usuario']="joe";
+        $_SESSION['usuario']="grace";
 
-        header("location:index.php");
+        header("location:administrador.php");
 
     } else {
         echo "<script> alert('usuario o contraseña incorrectos') </script>";
