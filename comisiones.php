@@ -48,7 +48,7 @@
                 <tr>
                 <th scope="col"></th>
                 <th scope="col">Mi estilo</th>
-                <th scope="col">con line</th>
+                <th scope="col">con lineart</th>
                 <th scope="col">Cartoon</th>
                 <th scope="col">chibis</th>
                 <th scope="col">sketchs</th>
@@ -83,3 +83,6 @@
             </table>
         </div>
     </div>
+
+
+<?php include("footer.php") ?>

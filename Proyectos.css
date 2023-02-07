@@ -1,0 +1,55 @@
+.division-estilos{
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    font-size: 30px;
+    background-color: var(--tabla-comisiones);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: var(--text-font);
+    color: var(--texto-tabla-comisiones); 
+}
+
+.division-estilos h2{font-weight: 600 !important;}
+
+.proyectos-container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--tabla-comisiones);
+    display: flex;
+    justify-content: center;
+}
+
+.galeria_container {
+    width: 80%;
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-container{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 25px;
+    transition: .5s;
+    
+
+}
+
+.foto-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: -19px 29px 22px -6px rgba(0,0,0,0.46);
+    -webkit-box-shadow: -19px 29px 22px -6px rgba(0,0,0,0.46);
+    -moz-box-shadow: -19px 29px 22px -6px rgba(0,0,0,0.46);
+    
+}
+
+.foto-container:hover {
+   transform: scale(1.1);
+}
+
