@@ -5,4 +5,11 @@
     display: flex;
     justify-content: center;
 }
+
+
+.card-container {
+    width: 80vw;
+    height: 100%;
+    background-color: antiquewhite;
+}
     

@@ -30,6 +30,7 @@
         <a href="proyectos.php">proyectos</a>
         <a href="servicios.php">servicios</a>
         <a href="contacto.php">contacto</a>
+        <a href="administrador.php">administrador</a>
         </nav>
 
     </header>
