@@ -1,5 +1,5 @@
 <?php include("cabecera.php") ?>
-<div class="division-estilos"><h2>PROYECTOS</div>
+<div class="division-estilos"><h2>PROYECTOS</h2></div>
 <div class="proyectos-container">
 
     <div class="galeria_container">

@@ -21,7 +21,7 @@ if($_POST){
 ?>
 
     <!doctype html>
-    <html lang="en">
+    <html lang="es">
     
     <head>
       <title>login</title>
@@ -48,7 +48,7 @@ if($_POST){
                             iniciar sesion
                         </div>
                         <div class="card-body">
-                        <form action="login.php" method="post">
+                        <form action="admin.php" method="post">
                             usuario: <input class="form-control" type="text" name="usuario" id="">
                             <br>
                             contraseña: <input class="form-control" type="password" name="password" id="">
