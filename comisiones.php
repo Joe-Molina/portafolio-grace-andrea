@@ -2,6 +2,7 @@
 <?php include("cabecera.php");
 $objConexion = new conexion();
 $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
+$tablaComisiones=$objConexion->consultar("SELECT * FROM `tablacomisiones`");
 ?>
 
 <div class="division-estilos"><h2>COMISIONES</h2></div>
@@ -25,7 +26,7 @@ $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
                                 </div>
                         </div>
                     <?php foreach($fotosComisiones as $fotoComisiones) {?>
-                            <div class="carousel-item ">
+                            <div class="carousel-item">
                             <img class="d-block w-100" src="imagenes/<?php echo $fotoComisiones['imagen'];?>" alt="tumama">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5><?php echo $fotoComisiones['descripcion']?></h5>
@@ -61,30 +62,17 @@ $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
                 </tr>
             </thead>
             <tbody>
+                <?php foreach($tablaComisiones as $tablafilasComisiones) {?>
                 <tr>
-                <th scope="row">cara</th>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
+                <th><?php echo $tablafilasComisiones['parte del cuerpo']?></th>
+                <td><?php echo $tablafilasComisiones['mi estilo']?></td>
+                <td><?php echo $tablafilasComisiones['con line art']?></td>
+                <td><?php echo  $tablafilasComisiones['chibi']?></td>
+                <td><?php echo $tablafilasComisiones['cartoon']?></td>
+                <td><?php echo $tablafilasComisiones['sketchs']?></td>
                 </tr>
-                <tr>
-                <th scope="row">medio cuerpo</th>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                </tr>
-                <tr>
-                <th scope="row">cuerpo completo</th>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                <td>$</td>
-                </tr>
+                <?php } ?>
+
             </tbody>
             </table>
         </div>
