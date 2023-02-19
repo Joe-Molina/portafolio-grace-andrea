@@ -22,37 +22,42 @@
 
 .service-card {
     width: 350px;
-    height: 500px;
-    margin: 30px;
-    border-radius: 20px;
+    height: 450px;
+    margin: 15px;
+    transition: .3s;
+}
+
+.service-card:hover {
+    margin-top: 5px;
 }
 
 .service-card img {
     width: 100%;
     height: 80%;
-
-    border-radius: 20px;
+    border-radius: 10px 10px 0px 0px;
 }
 
-.service-card div {
-    width: 100%;
-    height: 20%;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .20s;
+.card-text {
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 0px 0px 10px 10px;
 }
 
-.service-card div:hover {
-    transform: scale(1.1);
-}
 
-.service-card div h2 {
+.card-text h2 {
+    text-align: center;
+    margin: 0;
+    height: 50px;
     font-family: var(--text-font);
-    color: var(--texto-tabla-comisiones);
+    color: var(--tabla-comisiones);
+    transition: .3s;
+    border-radius: 0px 0px 10px 10px;
+    line-height: 1.5;
 }
 
-.service-card div h2:hover {
-    color: aliceblue;
+.card-text h2:hover{
+    background-color: blueviolet;
+
 }
+
+
