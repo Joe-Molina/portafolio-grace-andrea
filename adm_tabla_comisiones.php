@@ -33,11 +33,14 @@ if($_GET){
 $objConexion = new conexion();
 $tablaComisiones=$objConexion->consultar("SELECT * FROM `tablacomisiones`");
 ?>
-<?php include("adm_index.php") ?>
+<?php include("cabecera.php") ?>
 
 
 
 <div class="container">
+<a href="adm_index.php " class="btn btn-success">volver</a>
+<a href="adm_foto_comisiones.php " class="btn btn-success">configurar fotos de la tabla</a>
+<br><br>
     <div class="row">
         <div class="col-6">
                 <div class="card comisiones-edit-container">

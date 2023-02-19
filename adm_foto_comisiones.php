@@ -34,11 +34,14 @@
 $objConexion = new conexion();
 $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
 ?>
-<?php include("adm_index.php")?>
+<?php include("cabecera.php")?>
 
 <div class="container">
+    <a href="adm_index.php " class="btn btn-success">volver</a>
+    <a href="adm_tabla_comisiones.php " class="btn btn-success">configurar precios de la tabla</a>
+    <br>
+    <br>
     <div class="row">
-
         <div class="col-6">
             <div class="card comisiones-edit-container">
 

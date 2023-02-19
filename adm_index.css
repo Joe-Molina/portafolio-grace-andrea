@@ -1,0 +1,18 @@
+.adm-container{
+    background-color: var(--tabla-comisiones);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* apartado de comisiones */
+.adm-comisiones-contanier{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+/* apartadod de proyectos */
+.adm-proyectos-container{
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
