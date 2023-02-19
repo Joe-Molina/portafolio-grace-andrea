@@ -51,6 +51,11 @@
 
 .carrusel {
     padding-left: 50px;
+    transition: .3s;
+}
+
+.carrusel:hover {
+    margin-bottom: 20px;
 }
 
 .carousel-inner{

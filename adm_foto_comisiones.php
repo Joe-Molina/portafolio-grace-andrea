@@ -1,3 +1,4 @@
+<?php include('sesion.php')?>
 <?php include("conexion.php");?>
 <?php
     if($_POST){
@@ -38,7 +39,7 @@ $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
 
 <div class="container">
     <a href="adm_index.php " class="btn btn-success">volver</a>
-    <a href="adm_tabla_comisiones.php " class="btn btn-success">configurar precios de la tabla</a>
+    <a href="adm_tabla_comisiones.php " class="btn btn-success">configurar tabla de precios</a>
     <br>
     <br>
     <div class="row">
@@ -85,7 +86,5 @@ $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
 
             </tbody>
             </table>
-        </div>
-        <div class="tabla-comisiones-precios col-6">
         </div>
 </div>

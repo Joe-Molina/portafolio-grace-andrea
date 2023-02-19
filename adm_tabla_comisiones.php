@@ -1,3 +1,4 @@
+<?php include('sesion.php')?>
 <?php include("conexion.php");?>
 <?php
 if($_POST){
@@ -66,37 +67,37 @@ $tablaComisiones=$objConexion->consultar("SELECT * FROM `tablacomisiones`");
                     </form>
                 </div>
                 </div>
-        </div>
-        <div class="col-6">
+        </div>  
+            <div class="col-6">
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">parte del cuerpo</th>
+                    <th scope="col">mi estilo</th>
+                    <th scope="col">con line art</th>
+                    <th scope="col">chibis</th>
+                    <th scope="col">cartoon</th>
+                    <th scope="col">sketchs</th>
+                    <th scope="col">opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach($tablaComisiones as $tablafilasComisiones) {?>
+                    <tr>
+                    <th><?php echo $tablafilasComisiones['parte del cuerpo']?></th>
+                    <td><?php echo $tablafilasComisiones['mi estilo']?></td>
+                    <td><?php echo $tablafilasComisiones['con line art']?></td>
+                    <td><?php echo  $tablafilasComisiones['chibi']?></td>
+                    <td><?php echo $tablafilasComisiones['cartoon']?></td>
+                    <td><?php echo $tablafilasComisiones['sketchs']?></td>
+                    <td><a class="btn btn-danger" href="?borrar=<?php echo $tablafilasComisiones['id']; ?>">eliminar</a></td>
+                    </tr>
+                    <?php } ?>
 
-        <table class="table">
-            <thead>
-                <tr>
-                <th scope="col">parte del cuerpo</th>
-                <th scope="col">mi estilo</th>
-                <th scope="col">con line art</th>
-                <th scope="col">chibis</th>
-                <th scope="col">cartoon</th>
-                <th scope="col">sketchs</th>
-                <th scope="col">opciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach($tablaComisiones as $tablafilasComisiones) {?>
-                <tr>
-                <th><?php echo $tablafilasComisiones['parte del cuerpo']?></th>
-                <td><?php echo $tablafilasComisiones['mi estilo']?></td>
-                <td><?php echo $tablafilasComisiones['con line art']?></td>
-                <td><?php echo  $tablafilasComisiones['chibi']?></td>
-                <td><?php echo $tablafilasComisiones['cartoon']?></td>
-                <td><?php echo $tablafilasComisiones['sketchs']?></td>
-                <td><a class="btn btn-danger" href="?borrar=<?php echo $tablafilasComisiones['id']; ?>">eliminar</a></td>
-                </tr>
-                <?php } ?>
-
-            </tbody>
-            </table>
-
+                </tbody>
+                </table>
+            </div>
+        
         </div>
     </div>
 </div>

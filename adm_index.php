@@ -14,9 +14,16 @@
         </div>
 
         <div class="adm-proyectos-container">
-            <h2>configuracion de servicios</h2>
+            <h2>configuracion de proyectos</h2>
         <ul>
             <li><a href="adm_foto_proyectos.php">administrar fotos de proyectos</a></li>
+        </ul>
+        </div>
+
+        <div class="adm-proyectos-container">
+            <h2>configuracion de servicios</h2>
+        <ul>
+            <li><a href="adm_servicios.php">administrar servicios</a></li>
         </ul>
         </div>
 
