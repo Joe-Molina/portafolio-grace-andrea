@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -32,6 +31,7 @@
         <a href="servicios.php">servicios</a>
         <a href="contacto.php">contacto</a>
         <a href="adm_index.php">administrador</a>
+        <a href="cerrarSesion.php">cerrar</a>
         </nav>
 
     </header>

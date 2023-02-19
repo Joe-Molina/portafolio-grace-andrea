@@ -1,5 +1,4 @@
-    <?php include("conexion.php");?>
-    <?php include("sesion.php");?>
+<?php include("conexion.php");?>
 <?php
     if($_POST){
         //foto comisiones
@@ -32,7 +31,7 @@
     
     }
 
-    $objConexion = new conexion();
+$objConexion = new conexion();
 $fotosComisiones=$objConexion->consultar("SELECT * FROM `imagencomisiones`");
 ?>
 <?php include("adm_index.php")?>

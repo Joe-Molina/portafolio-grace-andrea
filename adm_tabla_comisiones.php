@@ -1,5 +1,4 @@
 <?php include("conexion.php");?>
-<?php include("sesion.php");?>
 <?php
 if($_POST){
     //tabla precios

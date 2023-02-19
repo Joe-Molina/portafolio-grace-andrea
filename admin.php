@@ -1,6 +1,4 @@
 <?php
-
-
 session_start();
 if($_POST){
 
@@ -8,13 +6,11 @@ if($_POST){
        
         $_SESSION['usuario']="grace";
 
-        header("location:administrador.php");
+        header("location:adm_index.php");
 
     } else {
         echo "<script> alert('usuario o contraseña incorrectos') </script>";
     }
-
-
 }
 
 
@@ -53,7 +49,8 @@ if($_POST){
                             <br>
                             contraseña: <input class="form-control" type="password" name="password" id="">
                             <br>
-                            <button type="submit " class="btn btn-success">entrar al protafolio</button>           
+                            <button type="submit " class="btn btn-success">entrar al protafolio</button> 
+                            <a href="index.php" class="btn btn-success">volver</a>      
                         </form>
                         </div>
                         <div class="card-footer text-muted">
