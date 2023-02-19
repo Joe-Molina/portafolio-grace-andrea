@@ -19,7 +19,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    text-align: center  ;
+    text-align: center ;
+    border-radius: 10px;
+    transition: .3s;
+}
+.adm-comisiones-contanier:hover, .adm-proyectos-container:hover{
+    padding-bottom: 5px;
 }
 
 .adm-comisiones-contanier ul, .adm-proyectos-container ul{
@@ -36,13 +41,12 @@ padding: 0;
     padding: 10px;
     background-color: rgb(213, 123, 240);
     color: var(--tabla-comisiones);
-    transition: .5s;
+    border-radius: 5px;
+    transition: .3s;
     
 }
 
 .adm-comisiones-contanier ul li a:hover, .adm-proyectos-container ul li a:hover{
-    text-decoration: none;
     background-color: rgb(225, 165, 243);
-    padding: 10px;
     color: var(--texto-tabla-comisiones);
 }
