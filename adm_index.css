@@ -24,7 +24,7 @@
     transition: .3s;
 }
 .adm-comisiones-contanier:hover, .adm-proyectos-container:hover{
-    padding-bottom: 5px;
+    margin-top: 15px;
 }
 
 .adm-comisiones-contanier ul, .adm-proyectos-container ul{
