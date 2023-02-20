@@ -15,4 +15,7 @@
     --tabla-comisiones: #f3d9ff;
     --texto-tabla-comisiones: #4b0081;
 
+    --bg-gradient1: rgb(243,217,255);
+    --bg-gradient2: linear-gradient(180deg, rgba(243,217,255,1) 0%, rgba(177,137,222,1) 100%);  
+
 }

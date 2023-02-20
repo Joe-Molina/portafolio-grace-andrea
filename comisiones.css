@@ -15,7 +15,8 @@
 
 
 .comisiones-container {
-    background-color: var(--tabla-comisiones);
+    background: var(--bg-gradient1);
+    background: var(--bg-gradient2);
     width: 100%;
     height: 84vh;
     display: flex;

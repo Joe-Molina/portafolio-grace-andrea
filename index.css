@@ -1,9 +1,19 @@
+.index-container{
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-gradient1);
+  background: var(--bg-gradient2);
+}
+
 
 .sobremi {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 92vh;
+    width: 90vw;
+    height: 80vh;
     justify-content: center;
     align-items: center;
     background-image: url(imagenes/heronegra.svg);
