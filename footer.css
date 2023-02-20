@@ -1,0 +1,23 @@
+.img-contacto{
+    position: absolute;
+    width: 200px;
+    height: 200px; 
+    top: 75%;
+    left: 87%; 
+    transition: .5s;
+}
+
+.img-contacto:hover{
+    transform: scale(1.1);
+}
+
+.img-contacto img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-social-media{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}

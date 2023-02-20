@@ -25,9 +25,9 @@
         </div>
 
         <div class="contacto-card">
-        <h3>forma de contacto 3</h3>
+        <h3>isntagram</h3>
         <p> parrafo parrafo parrafo</p>
-        <a href="#"> link red social</a>
+        <a href="https://www.instagram.com/"> link red social</a>
         </div>
 
     </div>

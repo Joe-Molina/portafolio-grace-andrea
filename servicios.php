@@ -39,3 +39,5 @@ $infoservicios=$objConexion->consultar("SELECT * FROM `imagentablaservicios`");
 
 
 </div>
+
+<?php include("footer.php") ?>

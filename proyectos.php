@@ -18,3 +18,5 @@ $fotosProyectos=$objConexion->consultar("SELECT * FROM `imagenproyectos`");
     </div>
     
 </div>
+
+<?php include("footer.php") ?>

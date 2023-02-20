@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="variables.css">
     <link rel="stylesheet" href="servicios.css">
     <link rel="stylesheet" href="adm_index.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
