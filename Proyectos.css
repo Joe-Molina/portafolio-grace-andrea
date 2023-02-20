@@ -1,4 +1,4 @@
-.division-estilos{
+    .division-estilos{
     width: 100%;
     height: 8vh;
     text-align: center;
@@ -16,7 +16,8 @@
 .proyectos-container {
     width: 100%;
     height: 100vh;
-    background-color: var(--tabla-comisiones);
+    background: var(--bg-gradient1);
+  background: var(--bg-gradient2);
     display: flex;
     justify-content: center;
 }
