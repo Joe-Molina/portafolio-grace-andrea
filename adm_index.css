@@ -4,6 +4,7 @@
     height: 100%;
     background-color: var(--tabla-comisiones);
     display: flex;
+    justify-content: center;
 }
 
 
