@@ -13,7 +13,7 @@
     <div class="sobremi-info-container">
 
             <h2 class="nombre-atim"> GRACE ANDREA SANTOS </h2>
-            <h3> Artista freelance venezolana de 22 años </h3>
+            <h3> Artista freelance venezolana de 25 años </h3>
 
         
     </div>

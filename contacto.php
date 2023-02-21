@@ -5,30 +5,29 @@
 
 
     <div class="contacto-title-container">
-            <h2>Contactame</h2>
-            <br><hr><br>
-            <p>sadkjfhasldfghasd sadf saf kjasdf asdf asdf sadfasdfsadfasdf dfaedfsdf </p>
+            <h2>CONTACTAME</h2>
+            <br><br>
+            <p>aquí podrás contactarte conmigo y aclarar las dudas que necesites </p>
     </div>
 
     <div class="contacto-cards-container">
 
         <div class="contacto-card">
-        <h3>forma de contacto 1</h3>
-        <p> parrafo parrafo parrafo</p>
-        <a href="#"> link red social</a>
+            <a href="#"><img src="imagenes/kofi.svg" alt="" class="kofi"></a>
+        <h3>Ko-fi</h3>
         </div>
 
         <div class="contacto-card">
-        <h3>forma de contacto 2</h3>
-        <p> parrafo parrafo parrafo</p>
-        <a href="#"> link red social</a>
+            <a href="#"><img src="imagenes/gmailimg.svg" alt="" ></a>
+        <h3>Gmail</h3>
+        <p> graceandrea.job@gmail.com</p>
         </div>
 
         <div class="contacto-card">
-        <h3>isntagram</h3>
-        <p> parrafo parrafo parrafo</p>
-        <a href="https://www.instagram.com/"> link red social</a>
+            <a href="http://discordapp.com/users/691699880946696313"><img src="imagenes/discord.svg" alt=""></a>
+        <h3>Discord</h3>
         </div>
+
 
     </div>
 

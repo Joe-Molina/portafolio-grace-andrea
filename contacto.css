@@ -33,7 +33,7 @@
 .contacto-title-container hr{
     border-top: 2px solid;
     width: 30%;
-    color: #ffb039;
+    color: white;
     opacity: 1;
 }
 
@@ -61,10 +61,26 @@
 }
 
 .contacto-card h3 {
-    color: #ffb039;
+    color: var(--texto-tabla-comisiones);
 }
 
 .contacto-card a{
     text-decoration: none;
     color: black;
+
 }
+
+.kofi{
+    border-radius: 50px;
+}
+
+.contacto-card a img{
+    width: 100px;
+    height: 100px;
+    transition: .3s;
+}
+
+.contacto-card a img:hover{
+    margin-bottom: 15px;
+}
+
