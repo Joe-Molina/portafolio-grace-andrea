@@ -19,5 +19,35 @@
 .container-social-media{
     width: 100%;
     height: 50px;
-    background-color: antiquewhite;
+    background-color: rgb(152, 106, 204);
+}
+
+/* footer nav */
+.tyc-link {
+    text-align: center;
+}
+
+.tyc-link a{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.tyc-link a:hover{
+    color: #620e9e;
+}
+
+.creditos-footer {
+    text-align: center;
+    color: aliceblue;
+}
+
+.creditos-footer a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.creditos-footer a:hover{
+    color: black;
 }

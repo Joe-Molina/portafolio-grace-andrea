@@ -1,26 +1,22 @@
 <?php include("cabecera.php") ?>
 <div class="index-container">
 
-    <div class="sobremi-foto-container">
+        <div class="banner">
+                <div class="img-banner">
 
-
-            <img src="imagenes/9.jpg" alt="">
-  
-        
-        
-    </div>
-    
-    <div class="sobremi-info-container">
-
-            <h2 class="nombre-atim"> GRACE ANDREA SANTOS </h2>
-            <h3> Artista freelance venezolana de 25 años </h3>
-
-        
-    </div>
+                </div>
+        </div>
+        <div class="presentacion">
+                <div class="img-presentacion"></div>
+                <div class="img-presentacion"></div>
+                <div class="img-presentacion"></div>
+        </div>
 
 </div>
 
-<?php include("footer.php") ?>
+<?php include("footer.php")?>
+
+
 
 
 

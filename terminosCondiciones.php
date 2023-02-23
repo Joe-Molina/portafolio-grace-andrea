@@ -1,0 +1,1 @@
+<p>terminos y condiciones</p>

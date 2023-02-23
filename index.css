@@ -2,45 +2,42 @@
   width: 100vw;
   height: 92vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: var(--bg-gradient1);
   background: var(--bg-gradient2);
 }
 
-
-.sobremi-foto-container {
-    width: 50vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.banner{
+  background-color: antiquewhite;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sobremi-foto-container img{
-  height: 80%;
-  width:  65%;
-  border-radius: 50%;
+.img-banner{
+  background-color: rgb(247, 174, 80);
+  height: 400px;
+  width: 100%;
+  margin: 10px;
+}
+
+.presentacion{
+  background-color: beige;
+  width: 80vw;
+  display: flex;
+
 }
 
 
-.sobremi-info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-family: var(--text-font);
-    color: var(--texto-tabla-comisiones);
-    width: 50vw;
-    height: 80vh;
-
-    } 
-
-    .nombre-atim {
-        font-family: var(--title-font);
-        font-size: 60px;;
-    }
+.img-presentacion {
+  background-color: rgb(233, 159, 70);
+  height: 400px;
+  width: 33.34%;
+  margin: 10px;
+}
 
 
 
